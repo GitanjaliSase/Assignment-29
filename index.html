@@ -3,6 +3,9 @@
 <head>
     <title>Assignment-29 (Text Operation)</title>
     <style>
+      body{
+        background-color:azure;
+      }
         .text-center{
             text-align: center;
         }
@@ -15,6 +18,26 @@
         .text-box{
           margin-left: 300px;
         }
+        .btn{
+          width:70%;
+          display:flex;
+          justify-content: space-between;
+          margin: 50px auto;
+        }
+        button{
+          width:150px;
+          padding: 8px;
+          font-size: 15px;
+          border-radius: 10px;
+          border:1px solid black;
+          cursor:pointer;
+          background-color:beige;
+        }
+        button:hover{
+          transition: 0.3s;
+          background-color: bisque;
+          box-shadow: 0  5px 0 0 bisque;
+        }
     </style>
 </head>
 <body>
@@ -25,10 +48,11 @@
  <h2>Output Text :</h2>
    <textarea id="output" placeholder="Output will be display here"></textarea>
 </div>
+<div class="btn">
 <button>Lower Case</button>
 <button>Upper Case</button>
 <button>Word Count</button>
 <button>Character Count</button>
-
+</div>
 </body>
 </html>
